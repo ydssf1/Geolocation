@@ -1,6 +1,6 @@
-<aura:component>
-    <aura:attribute name="account" type="Account" />
+<aura:component >
+    <aura:attribute name="account" type="Account" default="{Name:'Test'}"/>
     <li>
         <a>{!v.account.Name}</a>
     </li>
-</aura:component>	
+</aura:component>
